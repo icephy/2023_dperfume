@@ -1,0 +1,84 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "SF Pro Text", "Microsoft jhenghei";
+    line-height: 1.5;
+}
+
+img{
+    max-width: 100%;
+    vertical-align: none;
+}
+
+a{
+    display: block;
+    text-decoration: none;
+}
+
+.container{
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.jcsb{
+    justify-content: space-between;
+}
+
+.aic{
+    align-items: center;
+}
+
+.gap-4{
+    gap: 4px;
+}
+
+.header{
+    background-color: #fff;
+    padding: 13px 0;
+}
+
+.logo a{
+    width: 128px;
+    height: 38px;
+    background-size: cover;
+    background-image: url(/img/d’Perfume.png);
+    background-repeat: no-repeat;
+    text-indent: 101%;
+    overflow: hidden;
+    white-space: nowrap;
+    color: #8D8D8D;
+    font-size: 20px;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+.nav-icon{
+    font-size: 20px;
+    color: #8D8D8D;
+}
+
+.nav li{
+    gap: 32px;
+}
+
+.nav-li a{
+    color: #8D8D8D;
+}
+
+/* banner 區塊 */
+
+.banner{
+    background-image: url();
+}
